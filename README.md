@@ -12,8 +12,8 @@ TDDBC for PHP with PHPUnit
 ------------
 
 ```sh
-curl -sS https://getcomposer.org/installer | php
-composer.phar install
+curl -s https://getcomposer.org/installer | php -d detect_unicode=Off
+php composer.phar install
 ```
 
 `./vendor/bin/phpunit`を実行して
